@@ -12,6 +12,6 @@ module.exports = {
     },
     
     getFirstName: function() {
-        return this.names[1];
+        return this.names[0];
     }
 }

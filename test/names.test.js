@@ -11,7 +11,7 @@ describe('testing names', function() {
     
     it('should return first name from the list of names', function() {
         let n = names.getFirstName();
-        expect(n).to.be.a('alice');
-        expect(n).to.equal('string');
+        expect(n).to.be.a('string');
+        expect(n).to.equal('alice');
     })
 })
