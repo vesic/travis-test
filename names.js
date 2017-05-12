@@ -9,5 +9,9 @@ module.exports = {
     
     getAllNames: function() {
         return this.names;
+    },
+    
+    getFirstName: function() {
+        return this.names[0];
     }
 }
