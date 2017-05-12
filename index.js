@@ -12,6 +12,6 @@ module.exports = {
   },
   
   div: function(a, b) {
-    return b / a;
+    return a / b;
   }
 }
