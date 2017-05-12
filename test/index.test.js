@@ -2,7 +2,7 @@ var index = require('../index');
 var chai = require('chai');
 var expect = chai.expect;
 
-describe('dummy test', function() {
+describe('testing calculator', function() {
 
   it('shuld return 4', function() {
     expect(index.add(2, 2)).to.equal(4);
@@ -23,4 +23,9 @@ describe('dummy test', function() {
   it('should not something other than 4 when 8 and 4 passed', function() {
     expect(index.sub(8, 4)).to.not.equal(5);
   })
+  
+  it('should return 4 when 2 and 2 are passed', function() {
+    expect(index.multi(2, 2)).to.equal(5);
+  })
+  
 });
