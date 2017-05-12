@@ -25,7 +25,11 @@ describe('testing calculator', function() {
   })
   
   it('should return 4 when 2 and 2 are passed', function() {
-    expect(index.multi(2, 2)).to.equal(5);
+    expect(index.multi(2, 2)).to.equal(4);
+  })
+  
+  it('should return 2 when 4 and 2 are passed', function() {
+    expect(index.div(4, 2)).to.equal(2);
   })
   
 });
