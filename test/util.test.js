@@ -14,6 +14,6 @@ describe('testing util.js', function() {
     
     it('should be a string', function() {
         let str = 'hello';
-        expect(util.returnFirstLetter(str)).to.be.a('number');
+        expect(util.returnFirstLetter(str)).to.be.a('string');
     })
 })
